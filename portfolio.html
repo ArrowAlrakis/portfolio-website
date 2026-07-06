@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Jing Lyu</title>
+
+    <meta name="description" content="Portfolio of Jing Lyu, 3D Character Artist specializing in stylized and realistic characters, creatures, and production-ready assets.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="site-logo" href="index.html">Jing Lyu</a>
+
+            <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section portfolio-hero">
+            <div class="container">
+                <p class="eyebrow">Portfolio and Project Breakdown</p>
+                <h1>Portfolio</h1>
+                <p class="page-intro">
+                    A focused selection of stylized, realistic, and technical work.
+                </p>
+
+                <div class="filter-bar" aria-label="Project filters">
+                    <button class="filter-btn active" type="button" data-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-filter="stylized">Stylized</button>
+                    <button class="filter-btn" type="button" data-filter="realistic">Realistic</button>
+                    <button class="filter-btn" type="button" data-filter="hardsurface">Hard Surface</button>
+                    <button class="filter-btn" type="button" data-filter="character">Character</button>
+                    <button class="filter-btn" type="button" data-filter="creature">Creature</button>
+                    <button class="filter-btn" type="button" data-filter="technical">Technical</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section portfolio-list-section">
+            <div class="container">
+                <div class="project-grid portfolio-grid">
+                    <!-- Project Seed -->
+                    <article class="project-card filterable-card" data-category="stylized character">
+                        <a class="project-card-link" href="projects/project-seed.html">
+                            <div class="project-image">
+                                <img src="assets/images/se-cover.jpg" alt="Project Seed">
+                            </div>
+
+                            <div class="project-card-content">
+                                <p class="project-category">Stylized Character</p>
+                                <h3>Stylized Characters (Project Seed)</h3>
+                                <p>A lineup of stylized game characters focusing on strong silhouettes, painterly materials, and animation-ready topology.</p>
+
+                                <div class="project-meta">
+                                    <span>Modeling, Texturing, Rendering, LOD Optimization</span>
+                                </div>
+
+                                <span class="text-link">View Project →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Samael -->
+                    <article class="project-card filterable-card" data-category="stylized hardsurface">
+                        <a class="project-card-link" href="projects/samael-mecha.html">
+                            <div class="project-image">
+                                <img src="assets/images/samael-cover.jpg" alt="Samael Mecha">
+                            </div>
+
+                            <div class="project-card-content">
+                                <p class="project-category">Hard Surface</p>
+                                <h3>Samael Mecha</h3>
+                                <p>Stylized hard-surface mecha designed for mobile game production.</p>
+
+                                <div class="project-meta">
+                                    <span>Modeling, UV Layout, Baking, Rendering</span>
+                                </div>
+
+                                <span class="text-link">View Project →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Coraline -->
+                     <article class="project-card filterable-card" data-category="realistic character">
+                        <a class="project-card-link" href="projects/coraline.html">
+                            <div class="project-image">
+                                <img src="assets/images/coraline-cover.jpg" alt="Coraline">
+                            </div>
+
+                            <div class="project-card-content">
+                                <p class="project-category">Realistic Character</p>
+                                <h3>Coraline</h3>
+                                <p>A realistic character study focused on likeness and anatomy.</p>
+
+                                <div class="project-meta">
+                                    <span>Modeling, Texturing, Rendering</span>
+                                </div>
+
+                                <span class="text-link">View Project →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Leviathan -->
+                    <article class="project-card filterable-card" data-category="stylized creature">
+                        <a class="project-card-link" href="projects/water-leviathan.html">
+                            <div class="project-image">
+                                <img src="assets/images/leviathan-cover.jpg" alt="Water Leviathan">
+                            </div>
+
+                            <div class="project-card-content">
+                                <p class="project-category">Stylized Creature</p>
+                                <h3>Water Leviathan</h3>
+                                <p>A stylized sea creature emphasizing silhouette and expressive forms.</p>
+
+                                <div class="project-meta">
+                                    <span>Modeling, Texturing, Rendering</span>
+                                </div>
+
+                                <span class="text-link">View Project →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Rimerock -->
+                    <article class="project-card filterable-card" data-category="realistic creature technical">
+                        <a class="project-card-link" href="projects/rimerock.html">
+                            <div class="project-image">
+                                <img src="assets/images/rimerock-cover.jpg" alt="Rimerock">
+                            </div>
+
+                            <div class="project-card-content">
+                                <p class="project-category">Realistic Creature</p>
+                                <h3>Rimerock</h3>
+                                <p>A complete creature pipeline from design through rigging and animation.</p>
+
+                                <div class="project-meta">
+                                    <span>Design, Modeling, Texturing, Python Rigging, Animation</span>
+                                </div>
+
+                                <span class="text-link">View Project →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Jing Lyu</p>
+            <div class="footer-links">
+                <a href="mailto:jcranejl@gmail.com"><i class="bi bi-envelope-fill"></i> Email</a>
+                <a href="https://www.linkedin.com/in/jinglyu3d/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
