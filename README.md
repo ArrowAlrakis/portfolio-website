@@ -4,7 +4,8 @@ A responsive portfolio website showcasing selected 3D character, creature, hard-
 
 **Live Portfolio**
 
-https://arrowalrakis.github.io/Lark-Companion/ 
+https://arrowalrakis.github.io/Portfolio-Website/
+
 (GitHub Pages deployment)
 
 ---
